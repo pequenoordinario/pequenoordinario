@@ -1,0 +1,80 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+   
+}
+#menuh{
+    background-image: url(capa.png);
+    width: 100%;
+   
+    
+    height: 300px;
+}
+
+   
+
+#menuh ul{
+    background-color: black;
+    width: 100%;
+
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    
+}
+#menuh ul li{
+    display: inline;
+ 
+}
+#menuh ul li a{
+    display: inline-block;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:white;
+    padding: 5px 5px 5px 5px;
+  
+}
+#menuh ul li a:hover{
+   color: blue;
+   border: 5px;
+   border-color: black;
+}
+#menuh ul li:last-child a{
+    float: right;
+    background-color: blue;
+   
+}
+#menuh ul li:last-child a:hover{
+    color:black
+}
+
+
+    
+
+
+
+#perfil{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -100px;
+}
+
+
+.utl{
+    text-align: center;
+    margin-top: -270px;
+    color: rgb(175, 9, 9);
+    background-color: black;
+    width: 400px;
+    border-radius: 10px;
+    padding:15px 15px ;
+}
+
+
+    
